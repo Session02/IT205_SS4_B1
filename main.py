@@ -6,6 +6,5 @@ if first_money > 500000:
     print(f"Số tiền được giảm giá: {int(decrease_money)} VND")
     print(f"Tổng tiền khách phải trả: {first_money - int(decrease_money)} VND")
 else:
-    decrease_money = first_money
     print("--- HÓA ĐƠN THANH TOÁN RIKKEI STORE ---")
     print(f"Tổng tiền khách phải trả: {first_money} VND")
